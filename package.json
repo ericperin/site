@@ -1,0 +1,9 @@
+{
+  "name": "ericperin",
+  "version": "1.0.0",
+  "description": "My website.",
+  "main": "index.js",
+  "repository": "https://github.com/ericperin/site.git",
+  "author": "Eric Perin <eric.perin@outlook.com>",
+  "license": "MIT"
+}
