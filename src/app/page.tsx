@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import AboutImage from '@/public/images/about.png'
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -21,6 +23,15 @@ export default function Home() {
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+        <a href='https://google.com' target='_blank'>
+          <Image src='/images/about.png' alt="" width={100} height={100} />
+        </a>
+        <a href='https://google.com' target='_blank'>
+          <Image src='/images/apple-store-badge.svg' alt="" width={100} height={100} />
+        </a>
+        <a href='https://google.com' target='_blank'>
+          <Image src='/images/google-play-badge.png' alt="" width={100} height={100} />
+        </a>
       </div>
     </main>
   );
